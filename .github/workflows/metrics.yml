@@ -20,5 +20,5 @@ jobs:
           token: NOT_NEEDED
           base: ""
           plugin_wakatime: yes
-          plugin_wakatime_sections: time, projects, projects-graphs, languages, languages-graphs, editors, os
+          plugin_wakatime_sections: languages, languages-graphs
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
