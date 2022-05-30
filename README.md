@@ -5,5 +5,4 @@
 - 📜 My blogs are [here](https://medium.com/@vaibhav_kumar)
 
  ![Metrics](/metrics.plugin.topics.icons.svg)
-
  ![Metrics](/metrics.plugin.wakatime.svg)
