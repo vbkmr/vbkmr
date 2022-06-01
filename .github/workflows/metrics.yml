@@ -50,11 +50,11 @@ jobs:
           plugin_stock_interval: 60m
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.stock.svg
+          filename: metrics.plugin.stock.5d.svg
           token: NOT_NEEDED
           base: ""
           plugin_stock: yes
-          plugin_stock_token: ${{ secrets.5d.STOCK_TOKEN }}
+          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
           plugin_stock_symbol: ACWI
           plugin_stock_duration: 5d
           plugin_stock_interval: 60m
