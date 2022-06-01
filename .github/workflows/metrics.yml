@@ -49,14 +49,14 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.stock.ytd.svg
+          filename: metrics.plugin.stock.5y.svg
           token: NOT_NEEDED
           base: ""
           plugin_stock: yes
           plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
           plugin_stock_symbol: ACWI
-          plugin_stock_duration: ytd
-          plugin_stock_interval: 60m
+          plugin_stock_duration: 5y
+          plugin_stock_interval: 1d
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.stock.5d.svg
