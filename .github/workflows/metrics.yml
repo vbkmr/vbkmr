@@ -33,6 +33,7 @@ jobs:
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
   github-metrics-xkcd:
     runs-on: ubuntu-latest
+    steps:
       - name: XKCD of the day
         uses: lowlighter/metrics@latest
         with:
@@ -43,8 +44,9 @@ jobs:
           plugin_screenshot_title: XKCD of the day
           plugin_screenshot_url: https://xkcd.com
           plugin_screenshot_selector: "#comic img"
-    github-metrics-stock:
-      runs-on: ubuntu-latest  
+  github-metrics-stock:
+    runs-on: ubuntu-latest  
+    steps:
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.stock.ytd.svg
