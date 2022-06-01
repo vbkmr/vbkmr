@@ -46,6 +46,8 @@ jobs:
           plugin_stock: yes
           plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
           plugin_stock_symbol: ACWI
+          plugin_stock_duration: 1mo
+          plugin_stock_interval: 60m
 
 
 
