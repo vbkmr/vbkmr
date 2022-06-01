@@ -7,3 +7,8 @@
  ![Metrics](/metrics.plugin.topics.icons.svg)
  
  ![Metrics](/metrics.plugin.wakatime.svg)
+ 
+ ![Metrics](/metrics.plugin.screenshot.svg)
+
+ ![Metrics](/metrics.plugin.stock.svg)
+
