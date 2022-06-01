@@ -10,5 +10,5 @@
  
  ![Metrics](/metrics.plugin.screenshot.svg)
 
- ![Metrics](/metrics.plugin.stock.svg)
+ ![Metrics](/metrics.plugin.stock.ytd.svg) ![Metrics](/metrics.plugin.stock.5d.svg)
 
