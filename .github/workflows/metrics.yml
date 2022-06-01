@@ -7,7 +7,7 @@ on:
   # (optional) Run workflow when pushing on master/main
   push: {branches: ["main"]}
 jobs:
-  github-metrics:
+  github-metrics-topics:
     runs-on: ubuntu-latest
     steps:
       - name: Icons
@@ -19,6 +19,9 @@ jobs:
           plugin_topics: yes
           plugin_topics_limit: 0
           plugin_topics_mode: icons
+  github-metrics-wakatime:
+    runs-on: ubuntu-latest
+    steps:
       - name: WakaTime
         uses: lowlighter/metrics@latest
         with:
@@ -28,8 +31,10 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_sections: languages, languages-graphs
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          name: XKCD of the day
-      - uses: lowlighter/metrics@latest
+  github-metrics-xkcd:
+    runs-on: ubuntu-latest
+      - name: XKCD of the day
+        uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.screenshot.svg
           token: NOT_NEEDED
@@ -38,6 +43,8 @@ jobs:
           plugin_screenshot_title: XKCD of the day
           plugin_screenshot_url: https://xkcd.com
           plugin_screenshot_selector: "#comic img"
+    github-metrics-stock:
+      runs-on: ubuntu-latest  
       - uses: lowlighter/metrics@latest
         with:
           filename: metrics.plugin.stock.ytd.svg
