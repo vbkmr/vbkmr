@@ -28,3 +28,24 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_sections: languages, languages-graphs
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          name: XKCD of the day
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.screenshot.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_screenshot: yes
+          plugin_screenshot_title: XKCD of the day
+          plugin_screenshot_url: https://xkcd.com
+          plugin_screenshot_selector: "#comic img"
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.stock.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_stock: yes
+          plugin_stock_token: ${{ secrets.STOCK_TOKEN }}
+          plugin_stock_symbol: ACWI
+
+
+
