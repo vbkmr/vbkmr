@@ -31,7 +31,7 @@ jobs:
           plugin_wakatime: yes
           plugin_wakatime_sections: languages, languages-graphs
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
-          plugin_wakatime_days: 365
+          plugin_wakatime_days: 180
   github-metrics-xkcd:
     runs-on: ubuntu-latest
     steps:
