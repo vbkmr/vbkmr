@@ -22,16 +22,26 @@ jobs:
   github-metrics-wakatime:
     runs-on: ubuntu-latest
     steps:
-      - name: WakaTime
+      - name: WakaTimeYear
         uses: lowlighter/metrics@latest
         with:
-          filename: metrics.plugin.wakatime.svg
+          filename: metrics.plugin.wakatime.yearly.svg
           token: NOT_NEEDED
           base: ""
           plugin_wakatime: yes
           plugin_wakatime_sections: languages, languages-graphs
           plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
           plugin_wakatime_days: 365
+      - name: WakaTimeWeekly
+        uses: lowlighter/metrics@latest
+        with:
+          filename: metrics.plugin.wakatime.weekly.svg
+          token: NOT_NEEDED
+          base: ""
+          plugin_wakatime: yes
+          plugin_wakatime_sections: languages, languages-graphs
+          plugin_wakatime_token: ${{ secrets.WAKATIME_TOKEN }}
+          plugin_wakatime_days: 7
   github-metrics-xkcd:
     runs-on: ubuntu-latest
     steps:
