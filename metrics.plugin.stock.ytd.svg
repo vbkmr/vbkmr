@@ -26,7 +26,7 @@
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
                                 <path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/>
                             </svg>
-                            Valued at 87.75 USD
+                            Valued at 88.67 USD
                         </div>
                     </section>
                     <section>
@@ -50,29 +50,32 @@
                             <!-- (optimized css) -->
                             <g class="ct-grids">
                                 <line y1="125" y2="125" x1="50" x2="465" class="ct-grid ct-vertical"/>
-                                <line y1="97.5" y2="97.5" x1="50" x2="465" class="ct-grid ct-vertical"/>
-                                <line y1="70" y2="70" x1="50" x2="465" class="ct-grid ct-vertical"/>
-                                <line y1="42.5" y2="42.5" x1="50" x2="465" class="ct-grid ct-vertical"/>
+                                <line y1="103" y2="103" x1="50" x2="465" class="ct-grid ct-vertical"/>
+                                <line y1="81" y2="81" x1="50" x2="465" class="ct-grid ct-vertical"/>
+                                <line y1="59" y2="59" x1="50" x2="465" class="ct-grid ct-vertical"/>
+                                <line y1="37" y2="37" x1="50" x2="465" class="ct-grid ct-vertical"/>
                                 <line y1="15" y2="15" x1="50" x2="465" class="ct-grid ct-vertical"/>
                             </g>
                             <g>
                                 <g class="ct-series ct-series-a">
-                                    <path d="M50,125L50,100.25C73.056,90.35,96.111,70.55,119.167,70.55C142.222,70.55,165.278,94.75,188.333,94.75C211.389,94.75,234.444,43.752,257.5,40.575C280.556,37.398,303.611,37.86,326.667,35.35C349.722,32.84,372.778,26.367,395.833,21.875L395.833,125Z" class="ct-area"/>
-                                    <path d="M50,100.25C73.056,90.35,96.111,70.55,119.167,70.55C142.222,70.55,165.278,94.75,188.333,94.75C211.389,94.75,234.444,43.752,257.5,40.575C280.556,37.398,303.611,37.86,326.667,35.35C349.722,32.84,372.778,26.367,395.833,21.875" class="ct-line"/>
+                                    <path d="M50,125L50,105.2C69.762,97.28,89.524,81.44,109.286,81.44C129.048,81.44,148.81,100.8,168.571,100.8C188.333,100.8,208.095,60.002,227.857,57.46C247.619,54.918,267.381,55.288,287.143,53.28C306.905,51.272,326.667,47.189,346.429,42.5C366.19,37.811,385.952,29.007,405.714,22.26L405.714,125Z" class="ct-area"/>
+                                    <path d="M50,105.2C69.762,97.28,89.524,81.44,109.286,81.44C129.048,81.44,148.81,100.8,168.571,100.8C188.333,100.8,208.095,60.002,227.857,57.46C247.619,54.918,267.381,55.288,287.143,53.28C306.905,51.272,326.667,47.189,346.429,42.5C366.19,37.811,385.952,29.007,405.714,22.26" class="ct-line"/>
                                 </g>
                             </g>
                             <g class="ct-labels">
-                                <text x="50" y="145" width="69.16666666666667" height="20" class="ct-label ct-horizontal ct-end">03/01, 14:30</text>
-                                <text x="119.16666666666667" y="145" width="69.16666666666667" height="20" class="ct-label ct-horizontal ct-end">04/01, 14:30</text>
-                                <text x="188.33333333333334" y="145" width="69.16666666666666" height="20" class="ct-label ct-horizontal ct-end">05/01, 14:30</text>
-                                <text x="257.5" y="145" width="69.16666666666669" height="20" class="ct-label ct-horizontal ct-end">06/01, 14:30</text>
-                                <text x="326.6666666666667" y="145" width="69.16666666666669" height="20" class="ct-label ct-horizontal ct-end">09/01, 14:30</text>
-                                <text x="395.83333333333337" y="145" width="69.16666666666663" height="20" class="ct-label ct-horizontal ct-end">10/01, 21:00</text>
-                                <text y="125" x="40" height="27.5" width="30" class="ct-label ct-vertical ct-start">84</text>
-                                <text y="97.5" x="40" height="27.5" width="30" class="ct-label ct-vertical ct-start">85</text>
-                                <text y="70" x="40" height="27.5" width="30" class="ct-label ct-vertical ct-start">86</text>
-                                <text y="42.5" x="40" height="27.5" width="30" class="ct-label ct-vertical ct-start">87</text>
-                                <text y="15" x="40" height="30" width="30" class="ct-label ct-vertical ct-start">88</text>
+                                <text x="50" y="145" width="59.285714285714285" height="20" class="ct-label ct-horizontal ct-end">03/01, 14:30</text>
+                                <text x="109.28571428571428" y="145" width="59.285714285714285" height="20" class="ct-label ct-horizontal ct-end">04/01, 14:30</text>
+                                <text x="168.57142857142856" y="145" width="59.28571428571429" height="20" class="ct-label ct-horizontal ct-end">05/01, 14:30</text>
+                                <text x="227.85714285714286" y="145" width="59.28571428571428" height="20" class="ct-label ct-horizontal ct-end">06/01, 14:30</text>
+                                <text x="287.1428571428571" y="145" width="59.285714285714306" height="20" class="ct-label ct-horizontal ct-end">09/01, 14:30</text>
+                                <text x="346.42857142857144" y="145" width="59.28571428571428" height="20" class="ct-label ct-horizontal ct-end">10/01, 14:30</text>
+                                <text x="405.7142857142857" y="145" width="59.28571428571428" height="20" class="ct-label ct-horizontal ct-end">11/01, 21:00</text>
+                                <text y="125" x="40" height="22" width="30" class="ct-label ct-vertical ct-start">84</text>
+                                <text y="103" x="40" height="22" width="30" class="ct-label ct-vertical ct-start">85</text>
+                                <text y="81" x="40" height="22" width="30" class="ct-label ct-vertical ct-start">86</text>
+                                <text y="59" x="40" height="22" width="30" class="ct-label ct-vertical ct-start">87</text>
+                                <text y="37" x="40" height="22" width="30" class="ct-label ct-vertical ct-start">88</text>
+                                <text y="15" x="40" height="30" width="30" class="ct-label ct-vertical ct-start">89</text>
                             </g>
                         </svg>
                         <div class="ct-legend">
