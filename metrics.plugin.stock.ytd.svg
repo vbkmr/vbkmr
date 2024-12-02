@@ -1,8 +1,8 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="60" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="302" class="">
     <defs>
         <style/>
     </defs>
-    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.field.error{color:#cb2431}.field.error svg{fill:#cb2431}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}#metrics-end,.fill-width{width:100%}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}</style>
+    <style>@keyframes animation-gauge{0%{stroke-dasharray:0 329}}@keyframes animation-rainbow{0%,to{color:#7f00ff;fill:#7f00ff}14%{color:#a933ff;fill:#a933ff}29%{color:#007fff;fill:#007fff}43%{color:#00ff7f;fill:#00ff7f}57%{color:#ff0;fill:#ff0}71%{color:#ff7f00;fill:#ff7f00}86%{color:red;fill:red}}svg{font-family:-apple-system,BlinkMacSystemFont,Segoe UI,Helvetica,Arial,sans-serif,Apple Color Emoji,Segoe UI Emoji;font-size:14px;color:#777}h2{margin:8px 0 2px;padding:0;color:#0366d6;font-weight:400;font-size:16px}h2 svg{fill:currentColor}section&gt;.field{margin-left:5px;margin-right:5px}.field{display:flex;align-items:center;margin-bottom:2px;white-space:nowrap}.field svg{margin:0 8px;fill:#959da5;flex-shrink:0}.row{display:flex;flex-wrap:wrap}.row section{flex:1 1 0}:root{--color-calendar-graph-day-bg:#ebedf0;--color-calendar-graph-day-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-bg:#9be9a8;--color-calendar-graph-day-L2-bg:#40c463;--color-calendar-graph-day-L3-bg:#30a14e;--color-calendar-graph-day-L4-bg:#216e39;--color-calendar-halloween-graph-day-L1-bg:#ffee4a;--color-calendar-halloween-graph-day-L2-bg:#ffc501;--color-calendar-halloween-graph-day-L3-bg:#fe9600;--color-calendar-halloween-graph-day-L4-bg:#03001c;--color-calendar-winter-graph-day-L1-bg:#0a3069;--color-calendar-winter-graph-day-L2-bg:#0969da;--color-calendar-winter-graph-day-L3-bg:#54aeff;--color-calendar-winter-graph-day-L4-bg:#b6e3ff;--color-calendar-graph-day-L4-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L3-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L2-border:rgba(27,31,35,0.06);--color-calendar-graph-day-L1-border:rgba(27,31,35,0.06)}#metrics-end{width:100%}</style>
     <style/>
     <foreignObject x="0" y="0" width="100%" height="100%">
         <div xmlns="http://www.w3.org/1999/xhtml" xmlns:xlink="http://www.w3.org/1999/xlink" class="items-wrapper">
@@ -12,17 +12,112 @@
                         <path d="M10.75 9a.75.75 0 000 1.5h1.5a.75.75 0 000-1.5h-1.5z"/>
                         <path fill-rule="evenodd" d="M0 3.75C0 2.784.784 2 1.75 2h12.5c.966 0 1.75.784 1.75 1.75v8.5A1.75 1.75 0 0114.25 14H1.75A1.75 1.75 0 010 12.25v-8.5zm14.5 0V5h-13V3.75a.25.25 0 01.25-.25h12.5a.25.25 0 01.25.25zm0 2.75h-13v5.75c0 .138.112.25.25.25h12.5a.25.25 0 00.25-.25V6.5z"/>
                     </svg>
-                    Stock prices
+                    Stock prices for ACWI
                 </h2>
-                <div class="row fill-width">
+                <div class="row">
                     <section>
-                        <div class="field error">
+                        <div class="field">
                             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                <path fill-rule="evenodd" d="M2.343 13.657A8 8 0 1113.657 2.343 8 8 0 012.343 13.657zM6.03 4.97a.75.75 0 00-1.06 1.06L6.94 8 4.97 9.97a.75.75 0 101.06 1.06L8 9.06l1.97 1.97a.75.75 0 101.06-1.06L9.06 8l1.97-1.97a.75.75 0 10-1.06-1.06L8 6.94 6.03 4.97z"/>
+                                <path fill-rule="evenodd" d="M1.5 14.25c0 .138.112.25.25.25H4v-1.25a.75.75 0 01.75-.75h2.5a.75.75 0 01.75.75v1.25h2.25a.25.25 0 00.25-.25V1.75a.25.25 0 00-.25-.25h-8.5a.25.25 0 00-.25.25v12.5zM1.75 16A1.75 1.75 0 010 14.25V1.75C0 .784.784 0 1.75 0h8.5C11.216 0 12 .784 12 1.75v12.5c0 .085-.006.168-.018.25h2.268a.25.25 0 00.25-.25V8.285a.25.25 0 00-.111-.208l-1.055-.703a.75.75 0 11.832-1.248l1.055.703c.487.325.779.871.779 1.456v5.965A1.75 1.75 0 0114.25 16h-3.5a.75.75 0 01-.197-.026c-.099.017-.2.026-.303.026h-3a.75.75 0 01-.75-.75V14h-1v1.25a.75.75 0 01-.75.75h-3zM3 3.75A.75.75 0 013.75 3h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 3.75zM3.75 6a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM3 9.75A.75.75 0 013.75 9h.5a.75.75 0 010 1.5h-.5A.75.75 0 013 9.75zM7.75 9a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5zM7 6.75A.75.75 0 017.75 6h.5a.75.75 0 010 1.5h-.5A.75.75 0 017 6.75zM7.75 3a.75.75 0 000 1.5h.5a.75.75 0 000-1.5h-.5z"/>
                             </svg>
-                            API error: 500 (Internal Server Error)
+                            iShares MSCI ACWI ETF
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M6 2a.75.75 0 01.696.471L10 10.731l1.304-3.26A.75.75 0 0112 7h3.25a.75.75 0 010 1.5h-2.742l-1.812 4.528a.75.75 0 01-1.392 0L6 4.77 4.696 8.03A.75.75 0 014 8.5H.75a.75.75 0 010-1.5h2.742l1.812-4.529A.75.75 0 016 2z"/>
+                            </svg>
+                            Valued at 122.03 USD
                         </div>
                     </section>
+                    <section>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M4.75 0a.75.75 0 01.75.75V2h5V.75a.75.75 0 011.5 0V2h1.25c.966 0 1.75.784 1.75 1.75v10.5A1.75 1.75 0 0113.25 16H2.75A1.75 1.75 0 011 14.25V3.75C1 2.784 1.784 2 2.75 2H4V.75A.75.75 0 014.75 0zm0 3.5h8.5a.25.25 0 01.25.25V6h-11V3.75a.25.25 0 01.25-.25h2zm-2.25 4v6.75c0 .138.112.25.25.25h10.5a.25.25 0 00.25-.25V7.5h-11z"/>
+                            </svg>
+                            Year to date
+                        </div>
+                        <div class="field">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
+                                <path fill-rule="evenodd" d="M13.03 8.22a.75.75 0 010 1.06l-4.25 4.25a.75.75 0 01-1.06 0L3.47 9.28a.75.75 0 011.06-1.06l2.97 2.97V3.75a.75.75 0 011.5 0v7.44l2.97-2.97a.75.75 0 011.06 0z"/>
+                            </svg>
+                            NaN USD (NaN%)
+                        </div>
+                    </section>
+                </div>
+                <div class="stock-chart">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="480" height="200">
+                        <g transform="translate(10,155)" fill="none" font-size="10" font-family="sans-serif" text-anchor="middle">
+                            <path class="domain" stroke="rgba(127, 127, 127, .8)" d="M10.5,0.5H460.5"/>
+                            <g class="tick" opacity="1" transform="translate(49.95504256509041,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">February</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(88.87879823525756,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">March</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(130.48695084819485,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">April</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(170.7529049897471,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">May</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(212.36105760268438,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">June</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(252.62701174423663,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">July</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(294.2351643571739,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">August</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(335.84331697011123,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">September</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(376.1092711116635,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">October</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(417.71742372460074,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">November</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(457.9833778661529,0)">
+                                <line stroke="currentColor" y2="6" stroke-opacity="0.5"/>
+                                <text fill="rgba(127, 127, 127, .8)" y="9" dy="0.71em" transform="translate(-5,5) rotate(-45)" style="text-anchor: end;">December</text>
+                            </g>
+                        </g>
+                        <g transform="translate(10,10)" fill="none" font-size="10" font-family="sans-serif" text-anchor="start">
+                            <g class="tick" opacity="1" transform="translate(0,22.82238586009597)">
+                                <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">120</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(0,53.17310819985037)">
+                                <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">115</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(0,83.52383053960476)">
+                                <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">110</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(0,113.87455287935914)">
+                                <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">105</text>
+                            </g>
+                            <g class="tick" opacity="1" transform="translate(0,144.22527521911354)">
+                                <line stroke="currentColor" x2="460" stroke-opacity="0.5" stroke-dasharray="2,2"/>
+                                <text fill="rgba(127, 127, 127, .8)" x="0" dy="-4">100</text>
+                            </g>
+                        </g>
+                        <path transform="translate(10,10)" d="M10,138.262L11.342,143.118L12.684,143.786L14.027,143.24L18.053,135.955L19.395,138.748L20.738,135.895L22.08,136.198L23.422,134.924L28.791,140.326L30.133,145L31.475,139.719L32.817,133.588L36.844,132.617L38.186,131.342L39.528,129.278L40.871,126.79L42.213,126.243L46.239,122.116L47.582,123.147L48.924,131.281L50.266,123.572L51.608,121.023L55.635,123.451L56.977,119.809L58.319,116.592L59.661,116.713L61.004,113.314L65.03,112.525L66.372,122.662L67.715,115.742L69.057,110.643L70.399,112.221L75.768,114.042L77.11,113.86L78.452,102.873L79.794,102.63L83.821,104.391L85.163,103.116L86.505,105.848L87.848,103.359L89.19,97.107L93.216,98.078L94.559,103.359L95.901,98.321L97.243,91.522L98.585,94.739L102.556,96.075L103.898,89.458L105.24,90.308L106.582,92.918L107.925,96.257L111.951,93.586L113.293,91.279L114.636,84.602L115.978,83.145L117.32,84.723L121.347,86.059L122.689,86.969L124.031,82.113L125.373,82.235L130.742,83.813L132.084,87.759L133.426,86.18L134.769,92.857L136.111,87.698L140.137,86.302L141.48,85.33L142.822,92.918L144.164,89.033L145.506,99.231L149.533,105.544L150.875,108.943L152.217,111.311L153.559,112.221L154.902,116.167L158.928,109.732L160.27,102.57L161.613,102.934L162.955,104.937L164.297,98.928L168.323,96.075L169.666,105.969L171.008,107.669L172.35,99.656L173.692,92.554L177.719,86.605L179.061,86.423L180.403,86.787L181.745,82.781L183.088,81.931L187.114,81.506L188.456,77.804L189.799,70.094L191.141,71.491L192.483,69.912L196.51,69.487L197.852,69.366L199.194,72.583L200.536,77.075L201.878,72.705L207.247,72.522L208.589,79.382L209.932,81.081L211.274,76.468L215.3,75.133L216.643,76.043L217.985,68.273L219.327,67.606L220.669,71.005L224.696,69.002L226.038,76.043L227.38,69.548L228.722,71.673L230.065,72.947L234.091,68.638L235.433,65.845L238.118,67.241L239.46,69.973L243.487,69.366L244.829,67.302L246.171,68.091L247.513,67.12L248.855,68.455L252.882,67.302L254.224,63.66L255.566,58.683L258.251,54.737L262.277,54.737L263.62,54.919L264.962,47.817L266.304,50.549L267.646,45.45L271.673,46.178L273.015,42.415L274.357,51.338L275.699,57.286L277.042,61.839L281.068,54.737L282.41,57.104L283.753,70.762L285.095,74.222L286.437,66.21L290.464,66.817L291.806,69.123L293.148,57.954L294.49,70.277L295.832,82.235L299.859,99.777L301.201,95.346L302.543,96.56L303.886,82.781L305.228,79.807L309.254,79.321L310.597,69.002L311.939,67.181L313.281,56.315L314.623,53.887L318.65,46.906L319.992,48.667L321.334,45.025L322.676,50.609L324.019,41.14L328.045,43.75L329.387,42.354L330.73,46.239L332.072,45.632L333.414,40.654L338.783,54.251L340.125,56.376L341.467,57.226L342.809,69.002L346.836,61.96L348.178,60.989L349.52,54.919L350.862,48.849L352.205,45.328L356.231,42.9L357.573,43.629L358.916,45.632L360.258,33.067L361.6,35.919L365.627,33.188L366.969,28.271L368.311,31.306L369.653,23.294L370.995,24.993L375.022,25.054L376.364,29.667L377.706,27.968L379.049,31.549L380.391,25.479L384.417,30.031L385.76,28.15L387.102,25.175L388.444,25.904L389.786,21.351L393.813,17.588L395.155,25.236L396.497,22.322L397.839,22.626L399.182,18.377L403.208,21.897L404.55,23.476L405.893,29.91L407.235,28.21L408.577,29.485L412.604,25.722L413.946,26.147L415.288,29.364L416.63,40.229L417.972,37.498L422.055,37.619L423.397,29.303L424.739,20.683L426.082,12.489L427.424,14.431L431.45,13.521L432.793,18.984L434.135,20.441L435.477,23.84L436.819,30.578L440.846,26.996L442.188,24.993L443.53,24.993L444.872,22.262L446.215,19.652L450.241,17.102L451.583,16.009L452.925,16.556L455.61,11.578L460,10" fill="transparent" stroke="#87ceeb" stroke-width="2"/>
+                        <path transform="translate(10,10)" d="M10,145L11.342,145L12.684,145L14.027,145L18.053,145L19.395,145L20.738,145L22.08,145L23.422,145L28.791,145L30.133,145L31.475,145L32.817,145L36.844,145L38.186,145L39.528,145L40.871,145L42.213,145L46.239,145L47.582,145L48.924,145L50.266,145L51.608,145L55.635,145L56.977,145L58.319,145L59.661,145L61.004,145L65.03,145L66.372,145L67.715,145L69.057,145L70.399,145L75.768,145L77.11,145L78.452,145L79.794,145L83.821,145L85.163,145L86.505,145L87.848,145L89.19,145L93.216,145L94.559,145L95.901,145L97.243,145L98.585,145L102.556,145L103.898,145L105.24,145L106.582,145L107.925,145L111.951,145L113.293,145L114.636,145L115.978,145L117.32,145L121.347,145L122.689,145L124.031,145L125.373,145L130.742,145L132.084,145L133.426,145L134.769,145L136.111,145L140.137,145L141.48,145L142.822,145L144.164,145L145.506,145L149.533,145L150.875,145L152.217,145L153.559,145L154.902,145L158.928,145L160.27,145L161.613,145L162.955,145L164.297,145L168.323,145L169.666,145L171.008,145L172.35,145L173.692,145L177.719,145L179.061,145L180.403,145L181.745,145L183.088,145L187.114,145L188.456,145L189.799,145L191.141,145L192.483,145L196.51,145L197.852,145L199.194,145L200.536,145L201.878,145L207.247,145L208.589,145L209.932,145L211.274,145L215.3,145L216.643,145L217.985,145L219.327,145L220.669,145L224.696,145L226.038,145L227.38,145L228.722,145L230.065,145L234.091,145L235.433,145L238.118,145L239.46,145L243.487,145L244.829,145L246.171,145L247.513,145L248.855,145L252.882,145L254.224,145L255.566,145L258.251,145L262.277,145L263.62,145L264.962,145L266.304,145L267.646,145L271.673,145L273.015,145L274.357,145L275.699,145L277.042,145L281.068,145L282.41,145L283.753,145L285.095,145L286.437,145L290.464,145L291.806,145L293.148,145L294.49,145L295.832,145L299.859,145L301.201,145L302.543,145L303.886,145L305.228,145L309.254,145L310.597,145L311.939,145L313.281,145L314.623,145L318.65,145L319.992,145L321.334,145L322.676,145L324.019,145L328.045,145L329.387,145L330.73,145L332.072,145L333.414,145L338.783,145L340.125,145L341.467,145L342.809,145L346.836,145L348.178,145L349.52,145L350.862,145L352.205,145L356.231,145L357.573,145L358.916,145L360.258,145L361.6,145L365.627,145L366.969,145L368.311,145L369.653,145L370.995,145L375.022,145L376.364,145L377.706,145L379.049,145L380.391,145L384.417,145L385.76,145L387.102,145L388.444,145L389.786,145L393.813,145L395.155,145L396.497,145L397.839,145L399.182,145L403.208,145L404.55,145L405.893,145L407.235,145L408.577,145L412.604,145L413.946,145L415.288,145L416.63,145L417.972,145L422.055,145L423.397,145L424.739,145L426.082,145L427.424,145L431.45,145L432.793,145L434.135,145L435.477,145L436.819,145L440.846,145L442.188,145L443.53,145L444.872,145L446.215,145L450.241,145L451.583,145L452.925,145L455.61,145L460,145L460,10L455.61,11.578L452.925,16.556L451.583,16.009L450.241,17.102L446.215,19.652L444.872,22.262L443.53,24.993L442.188,24.993L440.846,26.996L436.819,30.578L435.477,23.84L434.135,20.441L432.793,18.984L431.45,13.521L427.424,14.431L426.082,12.489L424.739,20.683L423.397,29.303L422.055,37.619L417.972,37.498L416.63,40.229L415.288,29.364L413.946,26.147L412.604,25.722L408.577,29.485L407.235,28.21L405.893,29.91L404.55,23.476L403.208,21.897L399.182,18.377L397.839,22.626L396.497,22.322L395.155,25.236L393.813,17.588L389.786,21.351L388.444,25.904L387.102,25.175L385.76,28.15L384.417,30.031L380.391,25.479L379.049,31.549L377.706,27.968L376.364,29.667L375.022,25.054L370.995,24.993L369.653,23.294L368.311,31.306L366.969,28.271L365.627,33.188L361.6,35.919L360.258,33.067L358.916,45.632L357.573,43.629L356.231,42.9L352.205,45.328L350.862,48.849L349.52,54.919L348.178,60.989L346.836,61.96L342.809,69.002L341.467,57.226L340.125,56.376L338.783,54.251L333.414,40.654L332.072,45.632L330.73,46.239L329.387,42.354L328.045,43.75L324.019,41.14L322.676,50.609L321.334,45.025L319.992,48.667L318.65,46.906L314.623,53.887L313.281,56.315L311.939,67.181L310.597,69.002L309.254,79.321L305.228,79.807L303.886,82.781L302.543,96.56L301.201,95.346L299.859,99.777L295.832,82.235L294.49,70.277L293.148,57.954L291.806,69.123L290.464,66.817L286.437,66.21L285.095,74.222L283.753,70.762L282.41,57.104L281.068,54.737L277.042,61.839L275.699,57.286L274.357,51.338L273.015,42.415L271.673,46.178L267.646,45.45L266.304,50.549L264.962,47.817L263.62,54.919L262.277,54.737L258.251,54.737L255.566,58.683L254.224,63.66L252.882,67.302L248.855,68.455L247.513,67.12L246.171,68.091L244.829,67.302L243.487,69.366L239.46,69.973L238.118,67.241L235.433,65.845L234.091,68.638L230.065,72.947L228.722,71.673L227.38,69.548L226.038,76.043L224.696,69.002L220.669,71.005L219.327,67.606L217.985,68.273L216.643,76.043L215.3,75.133L211.274,76.468L209.932,81.081L208.589,79.382L207.247,72.522L201.878,72.705L200.536,77.075L199.194,72.583L197.852,69.366L196.51,69.487L192.483,69.912L191.141,71.491L189.799,70.094L188.456,77.804L187.114,81.506L183.088,81.931L181.745,82.781L180.403,86.787L179.061,86.423L177.719,86.605L173.692,92.554L172.35,99.656L171.008,107.669L169.666,105.969L168.323,96.075L164.297,98.928L162.955,104.937L161.613,102.934L160.27,102.57L158.928,109.732L154.902,116.167L153.559,112.221L152.217,111.311L150.875,108.943L149.533,105.544L145.506,99.231L144.164,89.033L142.822,92.918L141.48,85.33L140.137,86.302L136.111,87.698L134.769,92.857L133.426,86.18L132.084,87.759L130.742,83.813L125.373,82.235L124.031,82.113L122.689,86.969L121.347,86.059L117.32,84.723L115.978,83.145L114.636,84.602L113.293,91.279L111.951,93.586L107.925,96.257L106.582,92.918L105.24,90.308L103.898,89.458L102.556,96.075L98.585,94.739L97.243,91.522L95.901,98.321L94.559,103.359L93.216,98.078L89.19,97.107L87.848,103.359L86.505,105.848L85.163,103.116L83.821,104.391L79.794,102.63L78.452,102.873L77.11,113.86L75.768,114.042L70.399,112.221L69.057,110.643L67.715,115.742L66.372,122.662L65.03,112.525L61.004,113.314L59.661,116.713L58.319,116.592L56.977,119.809L55.635,123.451L51.608,121.023L50.266,123.572L48.924,131.281L47.582,123.147L46.239,122.116L42.213,126.243L40.871,126.79L39.528,129.278L38.186,131.342L36.844,132.617L32.817,133.588L31.475,139.719L30.133,145L28.791,140.326L23.422,134.924L22.08,136.198L20.738,135.895L19.395,138.748L18.053,135.955L14.027,143.24L12.684,143.786L11.342,143.118L10,138.262Z" fill="rgba(88, 166, 255, .1)"/>
+                    </svg>
                 </div>
             </section>
         </div>
